@@ -1,0 +1,330 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #fff;
+    width: 100%;
+    background: url("../firstpage/images/bgforpoke.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main2{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    
+
+}
+.looking{
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10vw;
+
+}
+
+.inputimg{
+    margin-top: 3vh;
+    /* position: fixed ; */
+    /* border-radius: ; */
+    
+    
+}
+
+.inputpokemon{
+    width: 80vw;
+    height: 5vh;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10vw;
+    border-radius: 15px;
+    outline: 0;
+    border: 0;
+    border: 2px solid black;
+}
+
+.searchimg{
+    margin-left: -3vw;
+    top: 8.5vh;
+    cursor: pointer;
+}
+
+.type1, .type2, .type3, .type4, .type5, .type6{
+   
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.typeofpokemon{
+    width: 25vw;
+    height: 20vh;
+    background-color: aqua;
+    margin-top: 10px;
+    border-radius: 15px;
+    
+}
+
+.typeofpokemon1 , .typeofpokemon2,.typeofpokemon3,
+.typeofpokemon4,.typeofpokemon5,.typeofpokemon6,
+.typeofpokemon7,.typeofpokemon8,.typeofpokemon9,
+.typeofpokemon10,.typeofpokemon11,.typeofpokemon12,
+.typeofpokemon13,.typeofpokemon14,.typeofpokemon15,
+.typeofpokemon16,.typeofpokemon17,.typeofpokemon18
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    height: 20vh;
+    cursor: pointer;
+    background: linear-gradient(rgba(240,230,140,1), rgba(255,215,0,1));
+    /* background: url("../firstpage/images/Type=Electric.svg"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.typeofpokemon2{
+    background: linear-gradient(#78C850, #8FDB5B);
+    
+   
+}
+.typeofpokemon2:hover{
+    /* animation: shadow 2s infinite; */
+    /* transform: rotateY(180deg); */
+    transform: scaleZ(1.5);
+    position: relative;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    /* backface-visibility: hidden; */
+    /* visibility: hidden; */
+}
+/* @-webkit-keyframes shadow {
+    0%   { padding: 1px; opacity: 0.10; }
+    50%  { padding: 3px; opacity: 0.18; }
+    100% { padding: 1px; opacity: 0.10; }
+  }
+  @keyframes shadow {
+    0%   { padding: 1px; opacity: 0.10; }
+    50%  { padding: 3px; opacity: 0.18; }
+    100% { padding: 1px; opacity: 0.10; }
+  } */
+  
+
+
+.typeofpokemon3{
+    background: linear-gradient(#98D8D8,#B2EBF2);
+}
+
+.typeofpokemon4{
+    background: linear-gradient(#D4AF37,#C0C0C0);
+}
+.typeofpokemon5{
+    background: linear-gradient(#F08030,#FFA07A);
+}
+.typeofpokemon6{
+    background: linear-gradient(#6890F0,#ADD8E6);
+}
+.typeofpokemon7{
+  
+    background: linear-gradient(#C03028, #FFA07A);
+}
+.typeofpokemon8{
+    /* poison */
+    background: linear-gradient(#A040A0, #C183C1);
+}
+.typeofpokemon9{
+    /* ground */
+    background: linear-gradient(#E0C068, #F5DEB3);
+}
+.typeofpokemon10{
+    /* flying */
+    background: linear-gradient(#A890F0, #C9C9FF);
+}
+.typeofpokemon11{
+    /* psychic */
+    background: linear-gradient(#F85888, #FFB6C1);
+}
+.typeofpokemon12{
+    /* bug */
+    background: linear-gradient(#A8B820, #C2D21F);
+}
+.typeofpokemon13{
+    /* rock */
+    background: linear-gradient(#B8A038, #D1C17D);
+}
+.typeofpokemon14{
+    /* ghost */
+    background: linear-gradient(#705898, #A8A8C0);
+}
+.typeofpokemon15{
+    /* dragon */
+    background: linear-gradient(#3B6757, #36A991);
+}
+.typeofpokemon16{
+    /* dark */
+    background: linear-gradient(#705848, #A8A878);
+}
+.typeofpokemon17{
+    /* steel */
+    background: linear-gradient(#B8B8D0, #D1D1E0);
+}
+.typeofpokemon18{
+    /* fairy */
+    background: linear-gradient(#EE99AC, #FFB6C1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .electricpokemon{
+    width: 180px;
+    height: 180px;
+} */
+
+/* .typographi{
+    width: 44px;
+    color: rgba(69,81,96,1);
+    position: absolute;
+    top: 36px;
+    left: 8px;
+    font-family: Istok Web;
+    font-weight: Bold;
+    font-size: 9px;
+    opacity: 1;
+    text-align: left;
+} */
+
+/* .bgoftype{
+    width: 25vw;
+    height: 20vh;
+    background: linear-gradient(rgba(240,230,140,1), rgba(255,215,0,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+} */
+
+
+/* .imgoftype{
+    width: 100px;
+    height: 100px;
+    background: url("../firstpage/images/electricpokemon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 56px;
+    overflow: hidden;
+} */
+
+.logoname{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* position: absolute; */
+    /* top:20px; */
+}
+.nameoftype{
+    width: 44px;
+    color: rgba(69,81,96,1);
+    /* position: absolute;
+    top: 36px;
+    left: 8px; */
+    font-family: Istok Web;
+    font-weight: Bold;
+    font-size: 60px;
+    padding-left: 2vw;
+    margin-top: 5vh;
+    opacity: 1;
+    text-align: left;
+}
+
+.logooftype{
+    width: 5vw;
+    height: 5vh;
+    /* margin-left: vw; */
+    margin-top: 2vh;
+}
+
+.electricpokemon{
+    overflow-clip-margin:content-box;
+    overflow: clip;
+    width: 10vw;
+    height: 20vh;
+    /* opacity: 80%; */
+}
