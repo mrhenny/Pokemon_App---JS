@@ -205,7 +205,7 @@ body{
   .bgimage {
     width: 52vw;
     height: 65vh;
-    background: url("../firstpage/images/backgroundlogoforpokemon2.png");
+    background: url("../images/backgroundlogoforpokemon2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
